@@ -1,0 +1,19 @@
+# Site settings
+encoding: utf-8
+title: blog
+email: your-email@domain.com
+description: ""
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+#twitter_username: jekyllrb
+#github_username:  jekyll
+
+lang: "zh-CN"
+
+# Build settings
+markdown: kramdown
+timezone : Asia/Shanghai
+excerpt_separator: ""
+kramdown:
+  input: GFM
+  syntax_highlighter: pygments
